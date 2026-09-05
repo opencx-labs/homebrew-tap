@@ -1,0 +1,11 @@
+version: 0.1.0-alpha.1
+files:
+  - url: https://github.com/opencx-labs/catamorphic/releases/download/desktop-v0.1.0-alpha.1/Catamorphic-0.1.0-alpha.1-arm64.zip
+    sha512: vEuCE7Kw9WTo8g+gLfDrnhvXOOxn8mxNOqHn+D9L2zTHdYIQbwyDMiNIHmlaf3ZB+Jm0Tk+zlMi+bXUq767Qwg==
+    size: 197597983
+  - url: https://github.com/opencx-labs/catamorphic/releases/download/desktop-v0.1.0-alpha.1/Catamorphic-0.1.0-alpha.1-arm64.dmg
+    sha512: EIGxiqdsglmdFesfpPrD7cCfjpqii7Ts5x+Dcu4uGyI4+HqCqZEcdHSae1nLWSCZ6DHONGhJIRCWliMH3oOZmA==
+    size: 198033847
+path: https://github.com/opencx-labs/catamorphic/releases/download/desktop-v0.1.0-alpha.1/Catamorphic-0.1.0-alpha.1-arm64.zip
+sha512: vEuCE7Kw9WTo8g+gLfDrnhvXOOxn8mxNOqHn+D9L2zTHdYIQbwyDMiNIHmlaf3ZB+Jm0Tk+zlMi+bXUq767Qwg==
+releaseDate: '2026-09-05T18:20:03.581Z'
