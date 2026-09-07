@@ -1,6 +1,6 @@
 cask "catamorphic@alpha" do
-  version "0.1.0-alpha.3"
-  sha256 "0bcf4c044ececbd5bb3a586202b15619c68f11f9679d36538747c63a58cb0ea8"
+  version "0.1.0-alpha.4"
+  sha256 "aa183eaaf30efbfc9cc7934c8f09565b5daba447ac8b4e78347b7cfa1802a7be"
 
   url "https://github.com/opencx-labs/catamorphic/releases/download/desktop-v#{version}/Catamorphic-#{version}-arm64.dmg"
   name "Catamorphic"
