@@ -1,28 +1,28 @@
 class Difu < Formula
   desc "Terminal pull request reader with AI-generated review guides"
   homepage "https://github.com/opencx-labs/difu"
-  version "0.2.2"
+  version "0.2.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/opencx-labs/difu/releases/download/v0.2.2/difu-0.2.2-aarch64-apple-darwin.tar.gz"
-      sha256 "2e5369e286861f16b5f0d7fb88b864b15e3d15994c264681371cd285fba18328"
+      url "https://github.com/opencx-labs/difu/releases/download/v0.2.3/difu-0.2.3-aarch64-apple-darwin.tar.gz"
+      sha256 "a8ab5e3eecb835584964cbc9ed1fd6c646b15ad8fcd8371fb31b897701b35280"
     end
     on_intel do
-      url "https://github.com/opencx-labs/difu/releases/download/v0.2.2/difu-0.2.2-x86_64-apple-darwin.tar.gz"
-      sha256 "ed0a71f7ab3b8705d16cb66ad1a5b2ce1bc0749e781fb32095c01302dbda330a"
+      url "https://github.com/opencx-labs/difu/releases/download/v0.2.3/difu-0.2.3-x86_64-apple-darwin.tar.gz"
+      sha256 "32cf2110d2bc5e91adb772254b89d52dbf0d6537f257c35feafb4db3802b1b42"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/opencx-labs/difu/releases/download/v0.2.2/difu-0.2.2-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "f733b93dd421044262158a673ede51b40495dbdda3adab6e6aebc7679c743fc4"
+      url "https://github.com/opencx-labs/difu/releases/download/v0.2.3/difu-0.2.3-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "043cf1973b37f2fe3e21bf46077b916d65b0ea1e92eb90ff2c6c3f6104358632"
     end
     on_intel do
-      url "https://github.com/opencx-labs/difu/releases/download/v0.2.2/difu-0.2.2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "605100761ef004c9d968d641df56913df54eeb3a83d09da4823d6416ab94d52b"
+      url "https://github.com/opencx-labs/difu/releases/download/v0.2.3/difu-0.2.3-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "016b48a3f086f512d6d777703d880f75b50e88a32f5c6aabb785da7452256149"
     end
   end
 
