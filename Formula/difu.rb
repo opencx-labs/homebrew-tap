@@ -30,10 +30,6 @@ class Difu < Formula
     bin.install "difu"
   end
 
-  def post_install
-    system bin/"difu", "--refresh-agent-service"
-  end
-
   def caveats
     <<~EOS
       Git, GitHub CLI (gh), and Codex CLI must already be on your PATH.
