@@ -1,11 +1,11 @@
-version: 0.1.0-alpha.10
+version: 0.1.0-alpha.11
 files:
-  - url: https://github.com/opencx-labs/catamorphic/releases/download/desktop-v0.1.0-alpha.10/Work-0.1.0-alpha.10-arm64.zip
-    sha512: fP1FELpwQ27aHWOBtGoRuVT4WxN040JcsQxCNXnzpYGh60HTR6U47tuN2SpCYzOsqvOsKP3IHNn367OX71CU2A==
-    size: 226146681
-  - url: https://github.com/opencx-labs/catamorphic/releases/download/desktop-v0.1.0-alpha.10/Work-0.1.0-alpha.10-arm64.dmg
-    sha512: dfEFO/wTQMXzvNs/DQezNlu5GwJUbbuOPCR/TAwh+29uQOC/vIt6a8fjES/a2C3x7oSO8OrtTZontdM0sffgeA==
-    size: 226558190
-path: https://github.com/opencx-labs/catamorphic/releases/download/desktop-v0.1.0-alpha.10/Work-0.1.0-alpha.10-arm64.zip
-sha512: fP1FELpwQ27aHWOBtGoRuVT4WxN040JcsQxCNXnzpYGh60HTR6U47tuN2SpCYzOsqvOsKP3IHNn367OX71CU2A==
-releaseDate: '2026-09-22T21:01:30.828Z'
+  - url: https://github.com/opencx-labs/catamorphic/releases/download/desktop-v0.1.0-alpha.11/Work-0.1.0-alpha.11-arm64.zip
+    sha512: oI1ERUynLmCYByr7MNbIxI0jlMKcGLNq09455JuE3P2YL3lvqYlQ/OkdPDLsxqgZ+LUgMQsbGDQV/rjQAmOv4A==
+    size: 226392760
+  - url: https://github.com/opencx-labs/catamorphic/releases/download/desktop-v0.1.0-alpha.11/Work-0.1.0-alpha.11-arm64.dmg
+    sha512: 6G5I4p7g55ItSPNalniYJ4rjrbdZSHM5oylJfGwy1AVQpdsh4AMpZ6Rpa+jzueUyw30nd88Xm+Do9v/2S+cfBQ==
+    size: 226817537
+path: https://github.com/opencx-labs/catamorphic/releases/download/desktop-v0.1.0-alpha.11/Work-0.1.0-alpha.11-arm64.zip
+sha512: oI1ERUynLmCYByr7MNbIxI0jlMKcGLNq09455JuE3P2YL3lvqYlQ/OkdPDLsxqgZ+LUgMQsbGDQV/rjQAmOv4A==
+releaseDate: '2026-09-26T10:57:04.936Z'
