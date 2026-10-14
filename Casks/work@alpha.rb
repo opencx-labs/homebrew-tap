@@ -1,6 +1,6 @@
 cask "work@alpha" do
-  version "0.1.0-alpha.20"
-  sha256 "9b57a88b52dc784c1c13b5a1dcf45250e509702730feefcf36dbe9a231fdf814"
+  version "0.1.0-alpha.21"
+  sha256 "a43b1c22103238cf85fdc742d88927fbac3b15f93323aef414578bd149c2896d"
 
   url "https://github.com/opencx-labs/catamorphic/releases/download/desktop-v#{version}/Work-#{version}-arm64.dmg"
   name "Work"
