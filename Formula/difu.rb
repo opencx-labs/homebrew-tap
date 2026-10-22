@@ -1,33 +1,34 @@
 class Difu < Formula
   desc "Codex agents and guided pull request reviews in the terminal"
   homepage "https://github.com/opencx-labs/difu"
-  version "0.25.1"
+  version "0.26.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/opencx-labs/difu/releases/download/v0.25.1/difu-0.25.1-aarch64-apple-darwin.tar.gz"
-      sha256 "462d8c4c93253b7d0ad0db42eeef00601350917239d973e2c07923074cbce3fe"
+      url "https://github.com/opencx-labs/difu/releases/download/v0.26.0/difu-0.26.0-aarch64-apple-darwin.tar.gz"
+      sha256 "71991f93c42daa6db0e8bdd0e379d7365a3fefd989f1bb20bb32ca25456f50ee"
     end
     on_intel do
-      url "https://github.com/opencx-labs/difu/releases/download/v0.25.1/difu-0.25.1-x86_64-apple-darwin.tar.gz"
-      sha256 "ae63a8d2921ef8bee862d0b962cd27b33ad2fa51621a030f39dd1de0f80c8847"
+      url "https://github.com/opencx-labs/difu/releases/download/v0.26.0/difu-0.26.0-x86_64-apple-darwin.tar.gz"
+      sha256 "a5b57dfd5cb085b2cd99514dc00ded93a93125a41d95fd15f18fdfb8c54fe715"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/opencx-labs/difu/releases/download/v0.25.1/difu-0.25.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "7ccbf019cf2ed7e94f6c2c43e960aa900d117bc6d5e72471c8cb65bb717f7eef"
+      url "https://github.com/opencx-labs/difu/releases/download/v0.26.0/difu-0.26.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "87a52ec1b8d6e9340572ad46339a919fce72bccd21c199d1b2d47c44fd823174"
     end
     on_intel do
-      url "https://github.com/opencx-labs/difu/releases/download/v0.25.1/difu-0.25.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "642828ee0992be5db2675b3bb2440b697cd65e02f686eed51add42f9a5641804"
+      url "https://github.com/opencx-labs/difu/releases/download/v0.26.0/difu-0.26.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "2b31018a1bf40b08550501674b71f7964fc73f0d5501c783fb325e14ca3f1e5f"
     end
   end
 
   def install
     bin.install "difu"
+    libexec.install "DifuNotifications.app" if OS.mac?
   end
 
   def caveats
