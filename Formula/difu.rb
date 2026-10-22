@@ -1,28 +1,28 @@
 class Difu < Formula
   desc "Codex agents and guided pull request reviews in the terminal"
   homepage "https://github.com/opencx-labs/difu"
-  version "0.25.0"
+  version "0.25.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/opencx-labs/difu/releases/download/v0.25.0/difu-0.25.0-aarch64-apple-darwin.tar.gz"
-      sha256 "7ec47586792a28565d46dee463cf5339d323ca191183a79ed9eb531acb2e84ca"
+      url "https://github.com/opencx-labs/difu/releases/download/v0.25.1/difu-0.25.1-aarch64-apple-darwin.tar.gz"
+      sha256 "462d8c4c93253b7d0ad0db42eeef00601350917239d973e2c07923074cbce3fe"
     end
     on_intel do
-      url "https://github.com/opencx-labs/difu/releases/download/v0.25.0/difu-0.25.0-x86_64-apple-darwin.tar.gz"
-      sha256 "ef341bbb00b999c8566ac4152663fdeea555552bb3bb5631d757c69bebd64244"
+      url "https://github.com/opencx-labs/difu/releases/download/v0.25.1/difu-0.25.1-x86_64-apple-darwin.tar.gz"
+      sha256 "ae63a8d2921ef8bee862d0b962cd27b33ad2fa51621a030f39dd1de0f80c8847"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/opencx-labs/difu/releases/download/v0.25.0/difu-0.25.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "8503d35f1c11c91289b35f5244fd05bd07cf1e7a3649941e80cd69b4c73f3a10"
+      url "https://github.com/opencx-labs/difu/releases/download/v0.25.1/difu-0.25.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "7ccbf019cf2ed7e94f6c2c43e960aa900d117bc6d5e72471c8cb65bb717f7eef"
     end
     on_intel do
-      url "https://github.com/opencx-labs/difu/releases/download/v0.25.0/difu-0.25.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "b083836d1cf19ad03bb77e51cba6d739b32d429b6a226115859a60982f1b2207"
+      url "https://github.com/opencx-labs/difu/releases/download/v0.25.1/difu-0.25.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "642828ee0992be5db2675b3bb2440b697cd65e02f686eed51add42f9a5641804"
     end
   end
 
