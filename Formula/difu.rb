@@ -1,28 +1,28 @@
 class Difu < Formula
   desc "Codex agents and guided pull request reviews in the terminal"
   homepage "https://github.com/opencx-labs/homebrew-tap"
-  version "0.42.0"
+  version "0.46.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/opencx-labs/homebrew-tap/releases/download/difu-v0.42.0/difu-0.42.0-aarch64-apple-darwin.tar.gz"
-      sha256 "982d031f4dff768f88ea65e8ab5447dbdee376536bbc4297a307d786665ad8ed"
+      url "https://github.com/opencx-labs/homebrew-tap/releases/download/difu-v0.46.0/difu-0.46.0-aarch64-apple-darwin.tar.gz"
+      sha256 "8fc3d473a393cb37554d31bf3455a268201e10063cdfaba79df647f34641f9c5"
     end
     on_intel do
-      url "https://github.com/opencx-labs/homebrew-tap/releases/download/difu-v0.42.0/difu-0.42.0-x86_64-apple-darwin.tar.gz"
-      sha256 "cb14f046f1bb77152bab95392ad253dea6a47bd63d6180387b5deb607b4cbaaf"
+      url "https://github.com/opencx-labs/homebrew-tap/releases/download/difu-v0.46.0/difu-0.46.0-x86_64-apple-darwin.tar.gz"
+      sha256 "e675e843d225c1df77c8ddff1be66c8e030f6895731a4f52b1a6a2972acedb23"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/opencx-labs/homebrew-tap/releases/download/difu-v0.42.0/difu-0.42.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "35af982539f5b5d7dee33a980b101f285286cc335e8341ea5afc1a39661c3246"
+      url "https://github.com/opencx-labs/homebrew-tap/releases/download/difu-v0.46.0/difu-0.46.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "5f1146f20ce62e8cc5c85b553fb31462ec5f6ba45150d7db295cbdf263e4728d"
     end
     on_intel do
-      url "https://github.com/opencx-labs/homebrew-tap/releases/download/difu-v0.42.0/difu-0.42.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "7278272958b6570c54b6db25eba8e75dda36c1d5b38a9c2bf56bf71d4880d839"
+      url "https://github.com/opencx-labs/homebrew-tap/releases/download/difu-v0.46.0/difu-0.46.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "9fd5a28ec4f19c210ffb2daa86bd126126b62740314bc971f6f1bebca71d8673"
     end
   end
 
