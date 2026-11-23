@@ -1,6 +1,6 @@
 cask "work@alpha" do
-  version "0.1.0-alpha.39"
-  sha256 "d3ffda815a3709942de061c4f8a9ad3878297547f6c111d6204b703004d7735d"
+  version "0.1.0-alpha.41"
+  sha256 "eeda4b113aed623217650b9cddbe9a6018046675a603aa00bbf5ff5305606bb7"
 
   url "https://github.com/opencx-labs/catamorphic/releases/download/desktop-v#{version}/Work-#{version}-arm64.dmg"
   name "Work"
@@ -10,7 +10,7 @@ cask "work@alpha" do
   auto_updates true
   conflicts_with cask: "work"
   depends_on arch: :arm64
-  depends_on macos: :monterey
+  depends_on macos: :ventura
 
   app "Work.app"
 
